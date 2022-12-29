@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*general section*/
+.container{
+	max-width: 1350px;
+	padding: 0 32px;
+	margin: 0 20px;
+}
+.flex{
+	display: flex;
+	flex-direction: row;
+}
+body{
+	line-height: 1.5;
+}
+.home-container{
+	max-width: 1400px;
+	padding: 32px;
+	margin: 0 auto;
+}
+/*home page*/
+.header-nav a{
+	text-align: center;
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 20px;
+	font-size: 30px;
+}
+.hero-section{
+	text-align: center;
+	background-image: url("banner.jpg");
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-top: 40px;
+	color: rgb(136,136,136);
+}
+h2{
+	color: rgb(136,136,136);
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+button{
+	font-size: 20px;
+	padding: 20px;
+	margin: 10px auto;
+}
+.logo a span{
+	color: rgb(234,81,62);
+}
+.box-1{
+	background-color: rgb(92,189,157);
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+}
+.box-2{
+	background-color: rgb(230,127,49);
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+}
+.box-3{
+	background-color: rgb(57,152,219);
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+}
+.box-4{
+	background-color: rgb(104,205,115);
+	width: 300px;
+	height: 400px;
+	margin: 20px;
+}
+.services{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px auto;
+	
+}
+.services a{
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 50px;
+}
+/*portfolio-section*/
+.portfolio{
+	margin: 60px 0;
+}
+.col-1-4{
+	flex: 0 1 20%;
+	margin: 10px;
+}
+.portfolio img{
+	width: 100%;
+}
+/*gallery page*/
+.sidebar{
+	background-color: rgb(234,81,62);
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+	flex: 0 1 20%;
+	justify-content: space-between;
+	position: fixed;
+	height: 94%;
+	width: 20%;
+}
+button{
+	background-color: rgb(234,81,62);
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+.top{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+.brand a img{
+	padding: 10px;
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+}
+.brand a span{
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+.sidebar-heading{
+	font-size: 26px;
+	color: whitesmoke;
+	margin-top: 40px;
+	padding: 0 24px;
+}
+.sidebar-text{
+	font-size: 20px;
+	padding: 24px;
+}
+.sidebar-nav a{
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 5px;
+	color: white;
+	margin: 0 10px;
+}
+/*gallery section*/
+.gallery{
+	margin-left: 30%;
+}
+.heading{
+	font-size: 60px;
+	font-weight: 700px;
+	padding: 32px;
+	color: black;
+	text-align: center;
+}
+.gallery-image{
+	width: 80%;
+	border: 2px solid black;
+   margin: 20px;
+}
+.col-1-2{
+	flex: 0 1 50%;
+}
+.wrap{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
